@@ -16,4 +16,4 @@ There are several way to make Arduino send MIDI over USB:
 
 I DON'T recommend to use the first approach UNLESS you're 100% sure your project is completed and you won't touch your code anymore.
 
-If you want to see more on this project, 
+If you want to see more on this project, follow this Instractable at https://www.instructables.com/id/Arduino-MIDI-Controller-for-Aalto/
