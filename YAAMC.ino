@@ -9,7 +9,7 @@ int sensorValue = 0;
 /*
 Let's declare some variables as int - Arduino reads values from 0 to 1023. 
 MIDI CC accetps values from 0 to 127 so the value we read from potentiometers (pots) needs to be
-divided by 8
+divided by 8 later on
 */ 
 
 int ledBright = 0;
@@ -34,7 +34,7 @@ int midiChan = 176;
 void setup()
 {
   /*
-  Here we're going to tell Arduino to declare every pin as INPUT
+  Here we are declaring INPUTS and OUTPUTS
   */
   pinMode(A0, INPUT);
   pinMode(A1, INPUT);
@@ -50,7 +50,7 @@ void setup()
   pinMode(A11, INPUT);
   pinMode(A12, INPUT);
   pinMode(A13, INPUT);
-  pinMode(A15, OUTPUT); //this is just for a cool led blue tha could have been a digital out.
+  pinMode(A15, OUTPUT); //this is just for a cool blue LED tha could have been a digital out but hey, let's use just one side of the board.
   
 /*
  * There are different ways to send MIDI to your DAW: you can use Hairless MIDI Serial 
